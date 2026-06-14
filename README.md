@@ -1,2 +1,19 @@
-# Embedded-Systems-Project
-Embedded Systems Project in X-Lab
+# ESP32 LED 流水灯实验
+
+## 实验内容
+使用 ESP32 驱动 4 颗外接 LED，实现 LED 依次点亮、依次熄灭的流水灯效果。
+
+## 使用引脚
+- GPIO2
+- GPIO4
+- GPIO5
+- GPIO18
+
+## 接线方式
+GPIO 引脚 → 220Ω 限流电阻 → LED 正极 → LED 负极 → GND
+
+## 实验现象
+LED 按顺序依次点亮，再依次熄灭，循环往复。
+
+## 速度调节
+通过修改代码中的 `delayTime` 参数，可以改变流水灯速度。
